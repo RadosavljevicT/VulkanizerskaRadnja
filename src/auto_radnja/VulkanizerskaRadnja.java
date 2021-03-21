@@ -4,8 +4,17 @@ import java.util.LinkedList;
 
 import auto_radnja.gume.AutoGuma;
 
+/**
+ * Klasa koja nasledjuje interfejs Radnja i nasledjuje njegove metode.
+ * Ova klasa dodaje gumu i pronalazi gumu i zatim stavlja u novu listu.
+ * @author Radosavljevic Tamara
+ *@version 0.1
+ */
 public class VulkanizerskaRadnja implements Radnja {
 
+	/**
+	 * privatni atribut gume koji je LinkedList tipa AutoGuma
+	 */
 	private LinkedList<AutoGuma> gume =
 			new LinkedList<AutoGuma>();
 	@Override
